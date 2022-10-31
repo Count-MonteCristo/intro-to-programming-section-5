@@ -13,3 +13,35 @@ main {
 #reset {
   margin: 20px;
 }
+
+body{
+  background-color:rgb(36, 36, 36);
+}
+
+h1 {
+  color: rgb(83, 204, 204);
+  padding-top: 150px;
+}
+
+p {
+  color: rgb(219, 224, 223);
+  padding-bottom: 30px;
+}
+
+#too-high,
+#too-low,
+#max-guesses,
+#greater-than,
+#less-than {
+  background-color: white;
+  color: red;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#correct {
+  background-color: white;
+  color: green;
+  padding: 10px;
+  border-radius: 5px;
+}
